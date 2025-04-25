@@ -1,0 +1,148 @@
+/* Table Styles */
+.contests-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contests-table th,
+.contests-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.contests-table th {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
+}
+
+.contests-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.contests-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.contests-table tbody tr:last-of-type {
+  border-bottom: 2px solid #2c3e50;
+}
+
+.contests-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.contest-link {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contest-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.home-header .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-header .btn:hover {
+  background-color: #2980b9;
+}
+
+.home-features {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-features h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
